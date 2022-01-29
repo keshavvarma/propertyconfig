@@ -1,0 +1,21 @@
+<Context>
+<Resource name="core/DemoResource"
+		factory="com.mystudy.propertyconfig.factory.ResourceFactory"
+		global="core/HMIRARResource"	
+		     mcca.webservice.endpoint="https://gtwy.hft2.mccatest.com/MMSGatewayService.svc"
+		
+		ORACLE.URL="jdbc:oracle:thin:@20.41.13.54:1521/test"
+		ORACLE.USER="USERNAME"
+		ORACLE.PASSWORD="PASSWORD"
+		
+		server.type="azure"
+		
+		idp="allmerica-user"
+		idp.url="http://20.72.80.153:8080/hmirar/"
+		idp.userService="URL"
+		group.biller="MCCA_Biller"
+		group.lra="MCCA_LeadRecoveryAnalyst"
+		
+	/>
+
+</Context>
