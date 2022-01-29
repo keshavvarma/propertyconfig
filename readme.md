@@ -24,4 +24,9 @@ This project describes how to use tomcat level Resource/properties in java using
 5. Refer com.mystudy.propertyconfig.factory.PropertyListner for how to load resource/proeprty
 6. Created bean of properties com.mystudy.propertyconfig.Application.class, this is optional we can also crate object using new keyword.
 
+## Resource configuration in IDE for development
+
+	Add all <Resource> tags under context.xml of IDE's tomcat if tomcat/conf/CATALINA/localhost/ is not present.
+	Do not copy <context> tag in context.xml it already contains it.
+
 
